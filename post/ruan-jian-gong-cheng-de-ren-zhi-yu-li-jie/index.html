@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Zhiming&#39;s Blog
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="何志明">
+<meta name="description" content="岁月神偷 | Time always catches us off guard.">
+<meta name="keywords" content="博客,Blog">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://hezhiming1995.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                    <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+                                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125965338-1"></script>
+                                <script>
+                                    window.dataLayer = window.dataLayer || [];
+
+                                    function gtag() {
+                                        dataLayer.push(arguments);
+                                    }
+                                    gtag('js', new Date());
+                                    gtag('config', 'UA-125965338-1');
+                                </script>
+                                
+                                    <script type="text/javascript">
+                                        var _hmt = _hmt || [];
+                                        (function() {
+                                            var hm = document.createElement("script");
+                                            hm.src = "https://hm.baidu.com/hm.js?9e2f8f8de7b9bf79e4980a6930dc53c5";
+                                            var s = document.getElementsByTagName("script")[0];
+                                            s.parentNode.insertBefore(hm, s);
+                                        })();
+                                    </script>
+                                    
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://hezhiming1995.github.io">
+                    Zhiming&#39;s Blog
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="https://hezhiming1995.github.io">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/posts">
+                        文章
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="https://hezhiming1995.github.io/post/resume">
+                        About Me
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1700489200796" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://hezhiming1995.github.io">
+                            Zhiming&#39;s Blog
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1700489200796" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="https://hezhiming1995.github.io">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/posts">
+                            文章
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="https://hezhiming1995.github.io/post/resume">
+                            About Me
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                软件工程的认知与理解
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Zhiming's Blog
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2020-11-28</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">8.5
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">2499</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://hezhiming1995.github.io/tag/ruan-jian-gong-cheng/">软件工程</a>
+                                
+                                <a href="https://hezhiming1995.github.io/tag/jia-gou-she-ji/">架构设计</a>
+                                
+                                <a href="https://hezhiming1995.github.io/tag/pu-bu-mo-xing/">瀑布模型</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://i.loli.net/2020/11/30/FDqhfI2X4CM9uWw.jpg" alt="">
+                          
+                        <div class="post-content">
+                            <p><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#1-%E4%BB%80%E4%B9%88%E6%98%AF%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8Bwhat">1. 什么是软件工程？（What？）</a></li>
+<li><a href="#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8Bwhy">2. 为什么会有软件工程？（Why？）</a></li>
+<li><a href="#3-%E6%88%91%E4%BB%AC%E4%BC%9A%E5%9C%A8%E5%93%AA%E9%87%8C%E8%BF%90%E7%94%A8%E5%88%B0%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8Bwhere">3. 我们会在哪里运用到软件工程？（Where?）</a></li>
+<li><a href="#4-%E9%82%A3%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E8%BF%90%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%91%A2how">4. 那我们应该怎么运用软件工程呢？（How？）</a></li>
+<li><a href="#5-%E6%9C%80%E5%90%8E">5. 最后</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0%E4%B8%8E%E6%96%87%E7%8C%AE">参考文章与文献：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<strong>前言：</strong></p>
+<blockquote>
+<p>在理解任何事物前，希望我可以养成一个对于这个事物提出<strong>3W1H</strong>（What？Why？Where？How？）的先行分析。再去高谈阔论云云~</p>
+</blockquote>
+<!-- more -->
+<hr>
+<p>我大学本科专业就是软件工程，当然也是上过《软件系统架构》这门课程，当时对于这门理论不能再理论的课程着实起不了半点儿兴趣（没有深度的理解吸收）。但是这两个月的求职阶段，抛开技术而言，大企业对于我本科阶段<strong>最看重</strong>的就是软件工程这样一种<strong>结构化的思维</strong>。</p>
+<h3 id="1-什么是软件工程what">1. 什么是软件工程？（What？）</h3>
+<blockquote>
+<p>软件工程一直以来都缺乏一个统一的定义，很多学者、组织机构都分别给出了自己认可的定义，这里我粘贴一下百度百科以及相关文章的定义：</p>
+</blockquote>
+<ul>
+<li><a href="https://wiki.mbalib.com/wiki/%E5%B7%B4%E5%88%A9%C2%B7%E7%8E%BB%E5%A7%86">Barry Boehm</a>：运用现代科学技术知识来设计并构造计算机程序及为<strong>开发、运行和维护</strong>这些程序所必需的相关文件资料。</li>
+<li><a href="https://baike.baidu.com/item/%E7%94%B5%E6%B0%94%E4%B8%8E%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%8D%8F%E4%BC%9A/54975165?fromtitle=IEEE&amp;fromid=150905">IEEE</a>：在软件工程术语汇编中的定义：软件工程是：1.将<strong>系统化的、严格约束的、可量化的方法</strong>应用于软件的<strong>开发、运行和维护</strong>，即将工程化应用于软件；2.在1中所述方法的研究。</li>
+<li>比较认可的一种定义认为：软件工程是研究和应用如何<strong>以系统性的、规范化的、可定量的工程化方法去开发和维护软件</strong>，以及如何<strong>把经过时间考验而证明正确的管理技术</strong>和<strong>当前能够得到的最好的技术方法结合</strong>起来。</li>
+</ul>
+<p>以上定义可以看出，其实软件工程离不了软件的开发、运作以及后期维护三大环节。在这三个环节中，需要具备的就是一种工程化的思维方式去系统性的、规范化的、可量化的进行软件的全周期！其中，不仅仅限制于开发阶段，需要注意到软件整个项目中：周期有限、技术不断更新、需求不断变化、成本也是有限的这些环节。</p>
+<h3 id="2-为什么会有软件工程why">2. 为什么会有软件工程？（Why？）</h3>
+<blockquote>
+<p>一般我认为3W中Why是最核心的问题，因为这是先行前提，也是问题或事物的根本。</p>
+</blockquote>
+<p>当软件的规模越来越大，复杂度不断增加，软件项目开发维护过程中的问题就逐步暴露出来：<strong>软件产品质量低劣、软件维护工作量大、成本不断上升、进度不可控、程序人员无限度地增加</strong>。所以在60年代，“<strong>软件危机</strong>”的概念被提出来。<br>
+而软件工程提出来就是为了研究和克服“软件危机”的（1968年提出“软件工程”这一术语）！</p>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/11/28/jqxng2mCYZDsSUh.jpg" alt="什么是软件工程.jpeg" loading="lazy"></figure>
+<h3 id="3-我们会在哪里运用到软件工程where">3. 我们会在哪里运用到软件工程？（Where?）</h3>
+<p>在考虑这个问题的时候，我们首先要思考一下，软件项目中间有几个阶段？项目中又有几个哪些角色参与其中？</p>
+<blockquote>
+<p>一般情况下，我们认定的<strong>软件项目生命周期</strong>为：<strong>需求定义与分析</strong>、<strong>设计</strong>、<strong>实现</strong>、<strong>测试</strong>、<strong>交付和维护</strong></p>
+</blockquote>
+<blockquote>
+<p>其次，<strong>软件项目参与角色</strong>包括：<strong>项目经理</strong>、<strong>产品经理</strong>、<strong>架构师</strong>、<strong>程序员</strong>、<strong>测试工程师</strong>、<strong>运维工程师</strong></p>
+</blockquote>
+<p>其实以上就是目前最为认可且常见的软件开发流程，绝大多数公司就是采用这种方式，进行软件开发与维护的，这不就是一种最为常见的软件工程的过程化方式吗？😎</p>
+<h3 id="4-那我们应该怎么运用软件工程呢how">4. 那我们应该怎么运用软件工程呢？（How？）</h3>
+<p>上文提到的软件项目生命周期，及参与角色衍生出了一套最为基础的过程模型：<strong>瀑布模型</strong>（如下图）<br>
+<img src="https://i.loli.net/2020/11/28/s1B7b9KcvTHn4eo.jpg" alt="瀑布模型.jpg" loading="lazy"></p>
+<p>其后，当瀑布模型不能很好的应对需求的变更时，又衍生出了<strong>V模型、快速原型模型、增量模型、螺旋模型</strong>等等，试图改善瀑布模型存在的一些缺陷。这些改进模型的发展趋势上就是<strong>缩短项目周期，快速迭代</strong>。</p>
+<p>这样到了90年代，各种轻量级开发方法例如Scrum、极限编程等也不断被提出。到了2001年，这些轻量级开发方法一起组成了敏捷联盟，其后<strong>敏捷开发</strong>如同星星之火，逐渐形成燎原之势。</p>
+<p>此为，美国著名的软件工程专家<a href="https://wiki.mbalib.com/wiki/%E5%B7%B4%E5%88%A9%C2%B7%E7%8E%BB%E5%A7%86">巴利·玻姆 (Barry Boehm)</a>于1983年提出了<strong>软件工程的七条基本原理</strong>。</p>
+<ol>
+<li><strong>用分阶段的生命周期计划严格管理</strong></li>
+</ol>
+<p>这一条是吸取前人的教训而提出来的。统计表明，50%以上的失败项目是由于计划不周而造成的。在软件开发与维护的漫长生命周期中，需要完成许多性质各异的工作。这条原理意味着，应该把<strong>软件生命周期分成若干阶段</strong>，并相应制定出切实可行的计划，然后<strong>严格按照计划</strong>对软件的开发和维护进行管理。<br>
+玻姆认为，在整个软件生命周期中应指定并严格执行6类计划：项目概要计划、里程碑计划、项目控制计划、产品控制计划、验证计划、运行维护计划。</p>
+<ol start="2">
+<li><strong>坚持进行阶段评审</strong></li>
+</ol>
+<p>统计结果显示：大部分错误是在编码之前造成的，大约占63%<strong>错误发现的越晚</strong>，<strong>改正它要付出的代价就越大</strong>，要差2到3个数量级。 因此，软件的质量保证工作不能等到编码结束之后再进行，应坚持进行严格的<strong>阶段评审</strong>，以便尽早发现错误。</p>
+<ol start="3">
+<li><strong>实行严格的产品控制</strong></li>
+</ol>
+<p>开发人员最痛恨的事情之一就是<strong>改动需求</strong>。但是实践告诉我们，需求的改动往往是<strong>不可避免的</strong>。这就要求我们要采用科学的产品控制技术来顺应这种要求。也就是要<strong>采用变动控制，又叫基准配置管理</strong>。当需求变动时，其它各个阶段的文档或代码随之相应变动，以<strong>保证软件的一致性</strong>。</p>
+<ol>
+<li><strong>采纳现代程序设计技术</strong></li>
+</ol>
+<p>从六、七十年代的<strong>结构化软件开发技术</strong>，到最近的<strong>面向对象技术</strong>，从第一、第二代语言，到第四代语言，人们已经充分认识到：<strong>方法大于气力</strong>。采用先进的技术既可以提高软件开发的<strong>效率</strong>，又可以减少软件维护的<strong>成本</strong>。（技术与时俱进）</p>
+<ol start="5">
+<li><strong>结果应能清楚地审查</strong></li>
+</ol>
+<p>软件是一种看不见、摸不着的逻辑产品。软件开发小组的工作进展情况<strong>可见性差</strong>，难于<strong>评价和管理</strong>。为更好地进行管理，应根据软件开发的总目标及完成期限，尽量明确地规定开发小组的<strong>责任和产品标准</strong>，从而使所得到的标准能清楚地审查。</p>
+<ol start="6">
+<li><strong>开发小组的人员应少而精</strong></li>
+</ol>
+<p>开发人员的素质和数量是影响软件质量和开发效率的重要因素，应该少而精。　这一条基于两点原因：高素质开发人员的效率比低素质开发人员的<strong>效率要高几倍到几十倍</strong>，开发工作中犯的错误也要少的多；当开发小组为N人时，可能的<strong>通信信道为N(N-1)/2</strong>, 可见随着人数N的增大，<strong>通讯开销将急剧增大</strong>。</p>
+<ol start="7">
+<li><strong>承认不断改进软件工程实践的必要性</strong></li>
+</ol>
+<p>遵从上述六条基本原理，就能够较好地实现软件的<strong>工程化生产</strong>。但是，它们只是对现有的经验的<strong>总结和归纳</strong>，并不能保证赶上技术不断前进发展的步伐。因此，玻姆提出应把承认不断改进软件工程实践的必要性作为软件工程的第七条原理。根据这条原理，不仅要积极采纳新的软件开发技术，还要注意不断<strong>总结经验，收集进度和消耗等数据</strong>，进行出错类型和问题报告统计。这些数据既可以用来评估新的软件技术的效果，也可以用来指明必须着重注意的问题和应该优先进行研究的工具和技术。</p>
+<h3 id="5-最后">5. 最后</h3>
+<p>近些年，云计算、微服务这些新技术的产生，也对软件工程产生了影响。云服务让分工更细，很多企业可以将运维、服务器维护、DBA、甚至某些独立服务交给云服务商；微服务让大团队变成小团队，每个小团队可以更专注于细分领域，减少相互之间的依赖。</p>
+<p>当我们大致了解整个软件工程的演变发展史，会发现，<strong>软件工程的知识</strong>，都是建立在软件项目的<strong>过程</strong>，或者说软件项目<strong>生命周期</strong>之上的。</p>
+<p>基于软件过程，我们有了<strong>角色分工</strong>，有了<strong>对过程的管理和工具</strong>，对过程中每个<strong>阶段细分的方法学和工具</strong>。</p>
+<blockquote>
+<p><strong>软件工程 = 过程 + 方法 + 工具</strong></p>
+</blockquote>
+<h3 id="参考文章与文献">参考文章与文献：</h3>
+<blockquote>
+<ol>
+<li><a href="https://www.sohu.com/a/295484499_684445">梦见，《你真的理解 “软件工程” 吗？ 》</a></li>
+<li><a href="https://blog.csdn.net/shareus/article/details/50857296">desaco，《浅谈对软件工程的认识与理解》</a></li>
+<li><a href="https://www.cnblogs.com/fishsky/p/10653743.html">鱼天翱，《软件工程之怎么理解软件工程》</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/203371189">宝玉，《到底应该怎样理解软件工程？》</a></li>
+</ol>
+</blockquote>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#1-%E4%BB%80%E4%B9%88%E6%98%AF%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8Bwhat">1. 什么是软件工程？（What？）</a></li>
+<li><a href="#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8Bwhy">2. 为什么会有软件工程？（Why？）</a></li>
+<li><a href="#3-%E6%88%91%E4%BB%AC%E4%BC%9A%E5%9C%A8%E5%93%AA%E9%87%8C%E8%BF%90%E7%94%A8%E5%88%B0%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8Bwhere">3. 我们会在哪里运用到软件工程？（Where?）</a></li>
+<li><a href="#4-%E9%82%A3%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E6%80%8E%E4%B9%88%E8%BF%90%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%91%A2how">4. 那我们应该怎么运用软件工程呢？（How？）</a></li>
+<li><a href="#5-%E6%9C%80%E5%90%8E">5. 最后</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0%E4%B8%8E%E6%96%87%E7%8C%AE">参考文章与文献：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Zhiming's Blog</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://hezhiming1995.github.io/post/ruan-jian-gong-cheng-de-ren-zhi-yu-li-jie/">https://hezhiming1995.github.io/post/ruan-jian-gong-cheng-de-ren-zhi-yu-li-jie/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://hezhiming1995.github.io/post/ruan-jian-gong-cheng-de-ren-zhi-yu-li-jie/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://hezhiming1995.github.io/post/ruan-jian-gong-cheng-de-ren-zhi-yu-li-jie/&sharesource=qzone&title=软件工程的认知与理解&pics=https://hezhiming1995.github.io/images/avatar.png?v=1700489200796&summary=&lt;p&gt;&lt;br&gt;
+&lt;strong&gt;前言：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在理解任何事物前，希望我可以养成一个对于这个事物提出&lt;strong&gt;3W1H&lt;/strong&gt;（What？Why？Where？How？）的先行分析。再去高谈阔论云云~&lt;/p&gt;
+&lt;/blockquote&gt;
+"><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://hezhiming1995.github.io/post/ruan-jian-gong-cheng-de-ren-zhi-yu-li-jie/&sharesource=weibo&title=软件工程的认知与理解 + " - " + &lt;p&gt;&lt;br&gt;
+&lt;strong&gt;前言：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在理解任何事物前，希望我可以养成一个对于这个事物提出&lt;strong&gt;3W1H&lt;/strong&gt;（What？Why？Where？How？）的先行分析。再去高谈阔论云云~&lt;/p&gt;
+&lt;/blockquote&gt;
+&pic="https://hezhiming1995.github.io/images/avatar.png?v=1700489200796 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://hezhiming1995.github.io/tag/ruan-jian-gong-cheng/">#
+                    软件工程
+                        </a>
+                        
+                        <a href="https://hezhiming1995.github.io/tag/jia-gou-she-ji/">#
+                    架构设计
+                        </a>
+                        
+                        <a href="https://hezhiming1995.github.io/tag/pu-bu-mo-xing/">#
+                    瀑布模型
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://hezhiming1995.github.io/post/what-is-dx-digital-transformation-shi-me-shi-shu-zi-hua-zhuan-xing/">
+                                                                                            What is DX (Digital Transformation) ? 什么是数字化转型
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://hezhiming1995.github.io/post/tableau-xue-xi-bi-ji/">
+                                                                                                    Tableau学习笔记
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                    
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: 'b04fd00e2a686d0b783c',
+        clientSecret: '762b106f86da3ace975f7778f6a89180ce13c6b5',
+        repo: 'hezhiming1995.github.io',
+        owner: 'hezhiming1995',
+        admin: ['hezhiming1995'],
+        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+        distractionFreeMode: false // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+</script>
+                            
+                                        
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        “写作是不被打扰的最佳谈话方式。” —— 儒勒·雷纳德 <br>
+                            
+                                <b id="hitokoto"></b><br>
+                                
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Zhiming&#39;s Blog &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://pages.github.com" target="_blank">
+                                                Github Page
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: '云之境',
+                            url: 'http://music.163.com/song/media/outer/url?id=1910710814.mp3',
+                            artist: '目索',
+                            cover: 'http://p1.music.126.net/SxGxGqRD5woVoxf6KjEVtg==/109951166910587711.jpg?param=130y130',
+                        });
+                        
+                        musicList.push({
+                            name: 'Kiss The Rain',
+                            url: 'http://music.163.com/song/media/outer/url?id=1299980643.mp3',
+                            artist: 'Yiruma',
+                            cover: 'http://p1.music.126.net/HDQuWNUZk2-hLfj1zvhZPQ==/109951164910494901.jpg?param=130y130',
+                        });
+                        
+                        musicList.push({
+                            name: 'Endless Horizon',
+                            url: 'http://music.163.com/song/media/outer/url?id=5268176.mp3',
+                            artist: 'Bandari',
+                            cover: 'http://p2.music.126.net/RvYXgoYJaOyjzak_3sBDdg==/109951167728410139.jpg?param=130y130',
+                        });
+                        
+                        musicList.push({
+                            name: 'Tears眼泪',
+                            url: 'http://music.163.com/song/media/outer/url?id=1444233940.mp3',
+                            artist: '顾彬',
+                            cover: 'http://p1.music.126.net/4H0SO_iVzAl839EnE-IO1w==/109951166632235270.jpg?param=130y130',
+                        });
+                        
+                        musicList.push({
+                            name: 'Long Way Home',
+                            url: 'http://music.163.com/song/media/outer/url?id=521169592.mp3',
+                            artist: 'Lamplighters (点灯人)',
+                            cover: 'http://p1.music.126.net/aBXLT2GnuSeWHrsMxgmOmg==/109951163321516604.jpg?param=130y130',
+                        });
+                        
+                        musicList.push({
+                            name: 'Snowdreams',
+                            url: 'http://music.163.com/song/media/outer/url?id=421110447.mp3',
+                            artist: 'Bandari',
+                            cover: 'http://p1.music.126.net/wiYRpp1E5y_Fb2HLOVpEHw==/17696639649365278.jpg?param=130y130',
+                        });
+                        
+                        musicList.push({
+                            name: '布列瑟农',
+                            url: 'http://music.163.com/song/media/outer/url?id=5241565.mp3',
+                            artist: 'Matthew Lien',
+                            cover: 'http://p1.music.126.net/B63O50RY3BFM8_Bzsk6ITA==/123145302328910.jpg?param=130y130',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    
+                    hitokoto();
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1700489200796);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

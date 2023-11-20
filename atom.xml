@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hezhiming1995.github.io</id>
+    <title>Zhiming&apos;s Blog</title>
+    <updated>2023-11-20T14:07:30.291Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hezhiming1995.github.io"/>
+    <link rel="self" href="https://hezhiming1995.github.io/atom.xml"/>
+    <subtitle>Time always &lt;br&gt;
+catches us off guard.</subtitle>
+    <logo>https://hezhiming1995.github.io/images/avatar.png</logo>
+    <icon>https://hezhiming1995.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Zhiming&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[数据仓库和数据湖之间到底有什么区别？]]></title>
+        <id>https://hezhiming1995.github.io/post/shu-ju-cang-ku-he-shu-ju-hu-zhi-jian-dao-di-you-shi-me-qu-bie/</id>
+        <link href="https://hezhiming1995.github.io/post/shu-ju-cang-ku-he-shu-ju-hu-zhi-jian-dao-di-you-shi-me-qu-bie/">
+        </link>
+        <updated>2023-10-29T14:01:30.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近开始面试，面试中经常被问道“数据仓库和数据湖之间有什么区别和相同之处”。写下此篇博客，用以加深和引导大家更好的理解这两个概念~</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近开始面试，面试中经常被问道“数据仓库和数据湖之间有什么区别和相同之处”。写下此篇博客，用以加深和引导大家更好的理解这两个概念~</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PVE下虚拟机和LXC容器心跳检测并重启]]></title>
+        <id>https://hezhiming1995.github.io/post/pve-xia-xu-ni-ji-he-lxc-rong-qi-xin-tiao-jian-ce-bing-chong-qi/</id>
+        <link href="https://hezhiming1995.github.io/post/pve-xia-xu-ni-ji-he-lxc-rong-qi-xin-tiao-jian-ce-bing-chong-qi/">
+        </link>
+        <updated>2023-08-20T02:45:33.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shell脚本更新Cloudflare的动态DNS]]></title>
+        <id>https://hezhiming1995.github.io/post/shell-jiao-ben-geng-xin-cloudflare-de-dong-tai-dns/</id>
+        <link href="https://hezhiming1995.github.io/post/shell-jiao-ben-geng-xin-cloudflare-de-dong-tai-dns/">
+        </link>
+        <updated>2023-08-06T07:52:06.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>起因是在外有访问家庭内网的需求，但是家庭宽带所拥有的公网IP又时常自动刷新，因此需要ddns服务，自己Google学习了一下，通过定时任务解析网卡上的ipv4，去更新Cloudflare上的域名dns解析。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>起因是在外有访问家庭内网的需求，但是家庭宽带所拥有的公网IP又时常自动刷新，因此需要ddns服务，自己Google学习了一下，通过定时任务解析网卡上的ipv4，去更新Cloudflare上的域名dns解析。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT注册指南（含攻略）]]></title>
+        <id>https://hezhiming1995.github.io/post/ChatGPT-Registration-Guide/</id>
+        <link href="https://hezhiming1995.github.io/post/ChatGPT-Registration-Guide/">
+        </link>
+        <updated>2022-12-14T03:04:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://www.bilibili.com/video/BV1RM411m7Q3/?share_source=copy_web&amp;vd_source=7d583ebde605a1533d00ec2af664f287">Bilibili -【VLOG #7 - 火爆全网的 ChatGPT 做你的私人“贾维斯”，教你恋爱，帮你答题！真的智能时代要到来了？】</a></p>
+<h2 id="前言">前言</h2>
+<p>酝酿了两周，ChatGPT真正的火出了圈了。从十二月五六号开始，互联网像是被ChatGPT点燃了一样，热度持续不下，甚至于我有了一种见证历史的感觉，未来也已不限于想象了！😆</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://www.bilibili.com/video/BV1RM411m7Q3/?share_source=copy_web&amp;vd_source=7d583ebde605a1533d00ec2af664f287">Bilibili -【VLOG #7 - 火爆全网的 ChatGPT 做你的私人“贾维斯”，教你恋爱，帮你答题！真的智能时代要到来了？】</a></p>
+<h2 id="前言">前言</h2>
+<p>酝酿了两周，ChatGPT真正的火出了圈了。从十二月五六号开始，互联网像是被ChatGPT点燃了一样，热度持续不下，甚至于我有了一种见证历史的感觉，未来也已不限于想象了！😆</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三种方式调用SparkSQL]]></title>
+        <id>https://hezhiming1995.github.io/post/san-chong-fang-shi-diao-yong-sparksql/</id>
+        <link href="https://hezhiming1995.github.io/post/san-chong-fang-shi-diao-yong-sparksql/">
+        </link>
+        <updated>2022-10-08T14:01:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈 AWS S3]]></title>
+        <id>https://hezhiming1995.github.io/post/qian-tan-aws-s3/</id>
+        <link href="https://hezhiming1995.github.io/post/qian-tan-aws-s3/">
+        </link>
+        <updated>2022-06-08T13:10:01.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[适用于 AWS Redshift 的 TPC-DS 基准测试]]></title>
+        <id>https://hezhiming1995.github.io/post/gua-yong-yu-aws-redshift-de-tpc-ds-ji-zhun-ce-shi/</id>
+        <link href="https://hezhiming1995.github.io/post/gua-yong-yu-aws-redshift-de-tpc-ds-ji-zhun-ce-shi/">
+        </link>
+        <updated>2021-08-25T13:27:57.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么要进行数据仓库的分层设计呢？]]></title>
+        <id>https://hezhiming1995.github.io/post/wei-shi-me-yao-jin-xing-shu-ju-cang-ku-de-fen-ceng-she-ji-ni/</id>
+        <link href="https://hezhiming1995.github.io/post/wei-shi-me-yao-jin-xing-shu-ju-cang-ku-de-fen-ceng-she-ji-ni/">
+        </link>
+        <updated>2021-08-20T11:27:04.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is DX (Digital Transformation) ? 什么是数字化转型]]></title>
+        <id>https://hezhiming1995.github.io/post/what-is-dx-digital-transformation-shi-me-shi-shu-zi-hua-zhuan-xing/</id>
+        <link href="https://hezhiming1995.github.io/post/what-is-dx-digital-transformation-shi-me-shi-shu-zi-hua-zhuan-xing/">
+        </link>
+        <updated>2020-11-30T08:20:24.000Z</updated>
+        <summary type="html"><![CDATA[<p><br>
+<strong>前言：</strong></p>
+<blockquote>
+<p>什么是<strong>数字化转型</strong>？这可能是刚刚毕业，面向传统行业或非互联网公司求职的同学（包括我）所面对的一个云雾缠绕的概念吧。其次为什么互联网公司不谈数字化转型呢？</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<p><br>
+<strong>前言：</strong></p>
+<blockquote>
+<p>什么是<strong>数字化转型</strong>？这可能是刚刚毕业，面向传统行业或非互联网公司求职的同学（包括我）所面对的一个云雾缠绕的概念吧。其次为什么互联网公司不谈数字化转型呢？</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[软件工程的认知与理解]]></title>
+        <id>https://hezhiming1995.github.io/post/ruan-jian-gong-cheng-de-ren-zhi-yu-li-jie/</id>
+        <link href="https://hezhiming1995.github.io/post/ruan-jian-gong-cheng-de-ren-zhi-yu-li-jie/">
+        </link>
+        <updated>2020-11-28T08:45:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><br>
+<strong>前言：</strong></p>
+<blockquote>
+<p>在理解任何事物前，希望我可以养成一个对于这个事物提出<strong>3W1H</strong>（What？Why？Where？How？）的先行分析。再去高谈阔论云云~</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<p><br>
+<strong>前言：</strong></p>
+<blockquote>
+<p>在理解任何事物前，希望我可以养成一个对于这个事物提出<strong>3W1H</strong>（What？Why？Where？How？）的先行分析。再去高谈阔论云云~</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tableau学习笔记]]></title>
+        <id>https://hezhiming1995.github.io/post/tableau-xue-xi-bi-ji/</id>
+        <link href="https://hezhiming1995.github.io/post/tableau-xue-xi-bi-ji/">
+        </link>
+        <updated>2020-11-23T10:36:01.000Z</updated>
+        <summary type="html"><![CDATA[<p></p>
+<p>——<strong>Tableau Software</strong>致力于帮助人们查看并理解数据。Tableau 帮助任何人<strong>快速分析、可视化并分享信息</strong>。超过 42,000 家客户通过使用 Tableau 在办公室或随时随地快速获得结果。数以万计的用户使用 Tableau Public 在博客与网站中分享数据。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p></p>
+<p>——<strong>Tableau Software</strong>致力于帮助人们查看并理解数据。Tableau 帮助任何人<strong>快速分析、可视化并分享信息</strong>。超过 42,000 家客户通过使用 Tableau 在办公室或随时随地快速获得结果。数以万计的用户使用 Tableau Public 在博客与网站中分享数据。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[字节校招笔试(08-09) 算法题回溯与感想(下)]]></title>
+        <id>https://hezhiming1995.github.io/post/zi-jie-xiao-zhao-bi-shi-08-09-suan-fa-ti-hui-su-yu-gan-xiang-xia/</id>
+        <link href="https://hezhiming1995.github.io/post/zi-jie-xiao-zhao-bi-shi-08-09-suan-fa-ti-hui-su-yu-gan-xiang-xia/">
+        </link>
+        <updated>2020-08-14T07:28:11.000Z</updated>
+    </entry>
+</feed>
